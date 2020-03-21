@@ -29,7 +29,7 @@ def getChangeString() {
 
 def HttpReq(AppName,ImageTag=' ',Status,CatchInfo=' '){
     wrap([$class: 'BuildUser']){
-        def DingTalkHook = "https://oapi.dingtalk.com/robot/send?access_token=67449753547bfcb8e2ee6088fdebaf2cdc7228787201fca83406fc449ffaf92"
+        def DingTalkHook = "https://oapi.dingtalk.com/robot/send?access_token=9a45b56e87f4b616b1747d64dd7dd20e72a6ff0a65805382230cd0c9c602ed20"
         def ChangeLog = getChangeString()
         def ReqBody = """{
             "msgtype": "markdown",
